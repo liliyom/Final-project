@@ -3,7 +3,7 @@ import React from 'react'
 const Contact = () => {
   return (
     <div>
-conatact page
+      ldkcz\lkdjk
     </div>
   )
 }
