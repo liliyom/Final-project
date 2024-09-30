@@ -19,7 +19,7 @@ const Home = () => {
         </p>
       </div>
       <div>
-        <button className="bg-red-900 text-white font-bold py-2 px-4 rounded hover:bg-white hover:text-red-900 border-4 border-red-900">
+        <button className="bg-red-900 text-white font-bold py-2 px-4 rounded hover:bg-white hover:text-red-900 border-2 border-red-900">
           CHAT-BOT
         </button>
       </div>
