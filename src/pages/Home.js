@@ -2,11 +2,7 @@ import React from "react";
 
 const Home = () => {
   return (
-<<<<<<< HEAD
     <div className="h-screen bg-fix bg-no-repeat bg-center bg-[url('/public/image/stethoscope.jpeg')]">
-=======
-    <div className="h-screen bg-cover bg-center bg-[url('/public/image/img1.jfif')]">
->>>>>>> ffa8683c997a4bd9091e686a1c5d4cf8e82fdc26
       <div className="font-bold p-4 ">
         <h2>Welcome To The Health Care</h2>
       </div>
@@ -23,11 +19,7 @@ const Home = () => {
         </p>
       </div>
       <div>
-<<<<<<< HEAD
-        <button className="bg-red-900 text-white font-bold py-2 px-4 rounded hover:bg-white hover:text-red-900 border-2 border-red-900">
-=======
         <button className="bg-white text-red-900 font-bold py-2 px-4 rounded hover:bg-red-900 hover:text-white border border-white">
->>>>>>> ffa8683c997a4bd9091e686a1c5d4cf8e82fdc26
           CHAT-BOT
         </button>
       </div>
