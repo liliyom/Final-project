@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Header from "../layout/header";
+import Footer from "../layout/Footer";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -25,8 +26,8 @@ const Contact = () => {
          <div>
 <Header></Header>
     <div className="flex justify-evenly h-screen bg-white text-white p-8">
-    <div className="flex flex-col justify-center max-w-md border border-black p-4 bg-red-900" >
-    <h1 className="text-4xl font-bold mb-5">Contact Me</h1>
+    <div className="flex flex-col justify-center max-w-md border rounded-md border-black p-4 bg-red-900 text-left" >
+    <h1 className="text-5xl font-bold mb-5 py-10">Contact Me</h1>
     <h2 className="text-2xl mb-3">Get in touch</h2>
     <p className="text-lg mb-2">Email: developer@javascript.com</p>
     <p className="text-lg mb-6">Phone: +65 XXX XXX</p>
@@ -36,7 +37,7 @@ const Contact = () => {
     </p>
   </div>
 
-  <form onSubmit={handleSubmit} className="flex flex-col justify-center w-full max-w-lg bg-red-900 border border-black px-3 py-1">
+  <form onSubmit={handleSubmit} className="flex flex-col justify-center w-full max-w-lg bg-red-900 border rounded-md border-black px-3 py-1">
     <div className="flex space-x-4 mb-4">
       <input
         type="text"
@@ -66,8 +67,7 @@ const Contact = () => {
     </div>
     <button
       type="submit"
-      className="w-24 py-2 border border-black rounded-md hover:bg-red-900 hover:text-white transition duration-300"
-    >
+      className="w-24 py-2 border border-black rounded-md hover:bg-red-900 hover:text-white transition duration-300">
       Send
     </button>
   </form>
