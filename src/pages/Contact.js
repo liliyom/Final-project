@@ -45,7 +45,7 @@ const Contact = () => {
         placeholder="Name"
         value={formData.name}
         onChange={handleChange}
-        className="w-full p-3 text-black border border-black rounded-md focus:outline-none bg-transparent"
+        className="w-full p-3 text-black border rounded-md hover:bg-white focus:outline-none bg-transparent"
       />
       <input
         type="email"
@@ -53,7 +53,7 @@ const Contact = () => {
         placeholder="Email"
         value={formData.email}
         onChange={handleChange}
-        className="w-full p-3 text-black border border-black rounded-md focus:outline-none bg-transparent"
+        className="w-full p-3 text-black border rounded-md hover:bg-white focus:outline-none bg-transparent"
       />
     </div>
     <div className="mb-6">
@@ -62,16 +62,17 @@ const Contact = () => {
         placeholder="Message"
         value={formData.message}
         onChange={handleChange}
-        className="w-full p-3 text-black border border-black rounded-md focus:outline-none bg-transparent h-32"
+        className="w-full p-3 text-black border rounded-md hover:bg-white focus:outline-none bg-transparent h-32"
       />
     </div>
     <button
       type="submit"
-      className="w-24 py-2 border border-black rounded-md hover:bg-red-900 hover:text-white transition duration-300">
+      className="w-24 py-2  text-white border rounded-md hover:bg-white hover:text-black transition duration-300">
       Send
     </button>
   </form>
 </div>
+<Footer/>
 </div> 
   );
 };
