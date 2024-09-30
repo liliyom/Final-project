@@ -8,7 +8,6 @@ import Footer from "./layout/Footer";
 import Navbar from "./components/Navbar";
 import Layout from "./layout";
 
-
 function App() {
   return (
     <div className="App">
