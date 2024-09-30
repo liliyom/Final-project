@@ -7,11 +7,13 @@ const About = () => {
   return (
     <div>
       <Header></Header>
-      <div className="  h-screen bg-cover bg-center  bg-[url('/public/image/img2.jpg')] bg-transparent h-60">
-        <h1 className="p-4 text-7xl	 font-bold tracking-wide">About Us</h1>
+      <div className="bg-cover bg-center bg-[url('/public/image/img2.jpg')] bg-transparent h-[350px] bg-blend-darken">
+        <div className="bg-[rgba(0,0,0,0.4)] h-full">
+          <h1 className="py-[60px] text-7xl font-bold text-black">About Us</h1>
+        </div>
       </div>
-      <div>
-        <h2 className="font-bold text-3xl text-left p-4">Health Care</h2>
+      <div className="border border-black">
+        <h2 className="font-bold text-3xl text-left p-4 ">Health Care</h2>
         <h1 className="font-bold text-l text-left p-4">
           Compassionate Health Care for All
         </h1>
@@ -27,7 +29,6 @@ const About = () => {
           create a welcoming environment where your health is in trusted hands.
         </p>
       </div>
-      <Footer></Footer>
     </div>
   );
 };
