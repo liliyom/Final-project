@@ -24,8 +24,8 @@ const Contact = () => {
   return (
          <div>
 <Header></Header>
-    <div className="flex justify-evenly h-screen bg-white text-black p-8">
-    <div className="flex flex-col justify-center max-w-md border border-black p-4">
+    <div className="flex justify-evenly h-screen bg-white text-white p-8">
+    <div className="flex flex-col justify-center max-w-md border border-black p-4 bg-red-900" >
     <h1 className="text-4xl font-bold mb-5">Contact Me</h1>
     <h2 className="text-2xl mb-3">Get in touch</h2>
     <p className="text-lg mb-2">Email: developer@javascript.com</p>
@@ -36,7 +36,7 @@ const Contact = () => {
     </p>
   </div>
 
-  <form onSubmit={handleSubmit} className="flex flex-col justify-center w-full max-w-lg border border-black px-3 py-1">
+  <form onSubmit={handleSubmit} className="flex flex-col justify-center w-full max-w-lg bg-red-900 border border-black px-3 py-1">
     <div className="flex space-x-4 mb-4">
       <input
         type="text"
