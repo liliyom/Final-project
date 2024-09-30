@@ -3,7 +3,7 @@ import Footer from "../layout/Footer";
 
 const Home = () => {
   return (
-    <div className="h-screen bg-cover bg-center  bg-[url('/public/image/img2.jpg')] bg-transparent h-96">
+    <div className="h-screen bg-cover bg-center  bg-[url('/public/image/img2.jpg')] bg-transparent h-96 bg-blend-overlay">
       <div className="font-bold p-4 text-red-900 font-sans text-lg tracking-wide">
         <h2>Welcome To The Health Care</h2>
       </div>

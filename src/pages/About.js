@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import Header from "../layout/header";
 import Footer from "../layout/Footer";
 
-
 const About = () => {
   return (
     <div>
@@ -12,9 +11,11 @@ const About = () => {
         <h1 className="p-4 text-7xl	 font-bold tracking-wide">About Us</h1>
       </div>
       <div>
-        <h2 className="font-bold text-3xl justify">Health Care</h2>
-        <h1>Compassionate Health Care for All</h1>
-        <p>
+        <h2 className="font-bold text-3xl text-left p-4">Health Care</h2>
+        <h1 className="font-bold text-l text-left p-4">
+          Compassionate Health Care for All
+        </h1>
+        <p className="font-bold text-left p-4">
           At [Your Organization Name], we are dedicated to providing
           compassionate, patient-centered health care for individuals of all
           ages and backgrounds. Our team of experienced professionals is
