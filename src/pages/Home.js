@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../layout/Footer";
 
 const Home = () => {
   return (
@@ -7,11 +8,11 @@ const Home = () => {
         <h2>Welcome To The Health Care</h2>
       </div>
       <div>
-        <h1 className="font-bold p-4 text-color-white text-5xl">
+        <h1 className="font-bold p-4 text-color-white text-5xl text-red-900 font-sans tracking-wide ">
           Navigating The Department Of The Health Care
         </h1>
       </div>
-      <div className="font-bold p-4 text-color-white text-base">
+      <div className="font-bold p-4 text-color-white text-base text-red-900 font-sans text-lg tracking-wide">
         <p>
           Health care refers to the maintenance and improvement of physical and
           mental health through the prevention, diagnosis, treatment, and
@@ -19,9 +20,15 @@ const Home = () => {
         </p>
       </div>
       <div>
-        <button className="bg-white text-red-900 font-bold py-2 px-4 rounded hover:bg-red-900 hover:text-white border border-white">
-          CHAT-BOT
-        </button>
+        <div className="flex justify-center items-start  ">
+          <button className="bg-white text-red-900 font-bold  px-4 py-2 mr-8 rounded hover:bg-red-900 hover:text-white border border-white ">
+            CHAT-BOT
+          </button>
+          <button className="bg-white text-red-900 font-bold px-4 py-2 rounded hover:bg-red-900 hover:text-white border border-white">
+            MAKE APPOINTMENT
+          </button>
+          <Footer></Footer>
+        </div>
       </div>
     </div>
   );
