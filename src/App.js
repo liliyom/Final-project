@@ -6,7 +6,11 @@ import Contact from "./pages/Contact";
 import Services from "./pages/Services";
 import Chatbot from "./pages/Chatbot";
 import Footer from "./layout/Footer";
+
+// import Navbar from "./components/Navbar";
+import Services from "./pages/Services";
 import Layout from "./layout";
+import Footer from "./layout/Footer";
 
 function App() {
   return (
