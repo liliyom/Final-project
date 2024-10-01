@@ -27,7 +27,6 @@ const Home = () => {
           <button className="bg-white text-red-900 font-bold px-4 py-2 rounded hover:bg-red-900 hover:text-white border border-white">
             MAKE APPOINTMENT
           </button>
-          <Footer></Footer>
         </div>
       </div>
     </div>
