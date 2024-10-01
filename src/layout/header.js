@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+
 const Header = () => {
   return (
     <header className="bg-red-900 text-white p-4 border-b-2 border-transparent">
@@ -37,9 +38,11 @@ const Header = () => {
           </nav>
         </div>
         <div>
-          <button className="bg-white text-red-900 font-bold py-2 px-4 rounded hover:bg-red-900 hover:text-white border border-white">
-            CHAT-BOT
-          </button>
+          <Link to="/chatbot" className="hover:underline">
+            <button className="bg-white text-red-900 font-bold py-2 px-4 rounded hover:bg-red-900 hover:text-white border border-white">
+              CHAT-BOT
+            </button>
+          </Link>
         </div>
       </div>
     </header>
