@@ -39,7 +39,7 @@ const Chatbot = () => {
                 </div>
               ))}
             </div>
-            s
+            
             <div className="flex">
               <input
                 type="text"

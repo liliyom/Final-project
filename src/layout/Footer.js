@@ -6,8 +6,10 @@ function Footer() {
     <footer className="bg-red-900 text-white py-4">
       <div>
         <div className="text-left pl-20 flex flex-row">
-          <div className="p-10 text-left w-[500px]">
-            <h1 className="text-decoration underline font-bold text-2xl">Medical ChatBot</h1>
+          <div className="p-10 text-left w-[500px] space-y-3">
+            <h1 className="text-decoration underline font-bold text-2xl">
+              Medical ChatBot
+            </h1>
             <p className="font-extralight">Health & Counselling</p>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa eum
@@ -16,9 +18,11 @@ function Footer() {
               perferendis ea qui
             </p>
           </div>
-          <div className="p-10 w-[500px]">
-            <h1 className="font-bold text-decoration underline text-2xl">Quick links</h1>
-            <div className="">
+          <div className="p-10 w-[500px] space-y-3">
+            <h1 className="font-bold text-decoration underline text-2xl">
+              Quick links
+            </h1>
+            <div className="space-y-3">
               <p>
                 <Link to="/" className="hover:underline">
                   Home
@@ -41,17 +45,27 @@ function Footer() {
               </p>
             </div>
           </div>
-          <div className="p-10 w-[500px]">
-            <h1 className="font-bold text-decoration underline text-2xl">Services</h1>
-            <div>
-              <p>Individual Counselling</p>
-              <p>Couple Counselling</p>
-              <p>Family Counselling</p>
-              <p>Career Counselling</p>
+          <div className="p-10 w-[500px] space-y-3">
+            <h1 className="font-bold text-decoration underline text-2xl">
+              Services
+            </h1>
+            <div className=" space-y-3">
+              <p className="hover:underline cursor-pointer">
+                Individual Counselling
+              </p>
+              <p className="hover:underline cursor-pointer">
+                Couple Counselling
+              </p>
+              <p className="hover:underline cursor-pointer">
+                Family Counselling
+              </p>
+              <p className="hover:underline cursor-pointer">
+                Career Counselling
+              </p>
             </div>
           </div>
         </div>
-        <hr/>
+        <hr />
         <div className="container mx-auto text-center">
           <p className="mt-2">© 2024 MyWebsite. All rights reserved.</p>
           <p>
@@ -61,7 +75,7 @@ function Footer() {
             </a>
           </p>
         </div>
-      </div>  
+      </div>
     </footer>
   );
 }
