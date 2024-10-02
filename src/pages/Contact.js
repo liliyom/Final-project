@@ -24,7 +24,6 @@ const Contact = () => {
 
   return (
     <div>
-      <Header />
       <div className="flex justify-evenly h-screen bg-white text-white p-8">
         <div className="flex flex-col justify-center max-w-md border rounded-md border-black p-4 bg-red-900 text-left">
           <h1 className="text-5xl font-bold mb-5 py-10">Contact Me</h1>
@@ -77,7 +76,6 @@ const Contact = () => {
           </button>
         </form>
       </div>
-      <Footer />
     </div>
   );
 };

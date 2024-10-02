@@ -4,7 +4,6 @@ import Header from "../layout/header";
 const Services = () => {
   return (
     <div>
-      <Header></Header>
       <div className="bg-cover bg-center bg-[url('/public/image/img2.jpg')] bg-transparent h-[350px] bg-blend-darken">
         <div className="bg-[rgba(0,0,0,0.4)] h-full">
           <h1 className="py-[60px]  text-7xl font-bold text-black">Services</h1>
